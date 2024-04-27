@@ -1,16 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-//Hocam bir ağaç oluşturup onu preorderla gezip onu dziye atıp dizinin orta elemanını yeni kök kabul ederek yeni bir ağaç oluşturdum
-//Bu ağaç ta doğal olarak dengeli oldu. Bu ağacın inorder gezintisini yazdırarak doğru olup olmadığını test ettim.
-//Daha sonra apacı sizin istediğiniz gibi yazdırırken bi mantık hatası(bence değil) olduğunu farkettim.
-//ağac kök orta eleman olduğu için kökten sonra hep sağa gidiyor ve hep sola gidiyor ama sonuç olarak dengeli bir ağaç oluşturuyor.
-//bu durumalrdan dolayı da yaprak sayısı hep 2 çıkacak.
-//aynı zamanda kod birazcık uzun oldu:))))))))
-//bu gezinti olayını vizede ki 2. soruda kullanbilsem çözecektim sanırım ama kağıda kod yazınca biraz daha zor oluyor.
-
-
 struct TreeDugum{
     int veri;
     struct TreeDugum *left;
