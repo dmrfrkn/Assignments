@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//This kod has a big logic error amybe u can fix it!
 struct TreeDugum{
     int veri;
     struct TreeDugum *left;
